@@ -8,7 +8,8 @@ class UsersController extends AppController {
 	}
 	 
 	function logout() {
-		//Leave empty for now.
+		$this->Session->setFlash('Good-Bye');
+		$this->redirect($this->Auth->logout());
 	}
 
 	function index() {

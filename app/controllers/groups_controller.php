@@ -3,6 +3,19 @@ class GroupsController extends AppController {
 
 	var $name = 'Groups';
 
+	function beforeFilter() {
+		parent::beforeFilter(); 
+		$this->Auth->allow(array('*'));
+	}
+	
+	function login() {
+		//Auth Magic
+	}
+	 
+	function logout() {
+		//Leave empty for now.
+	}
+
 	function index() {
 		$this->Group->recursive = 0;
 		$this->set('groups', $this->paginate());

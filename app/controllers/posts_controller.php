@@ -2,6 +2,11 @@
 class PostsController extends AppController {
 
 	var $name = 'Posts';
+	
+	function beforeFilter() {
+		parent::beforeFilter(); 
+		$this->Auth->allowedActions = array('index', 'view');
+	}
 
 	function index() {
 		$this->Post->recursive = 0;

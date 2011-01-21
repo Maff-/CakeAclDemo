@@ -2,11 +2,6 @@
 class GroupsController extends AppController {
 
 	var $name = 'Groups';
-
-	function beforeFilter() {
-		parent::beforeFilter(); 
-		$this->Auth->allow(array('*'));
-	}
 	
 	function login() {
 		//Auth Magic

@@ -1,4 +1,3 @@
-/*Table structure for table `acos` */
 
 CREATE TABLE `acos` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
@@ -28,6 +27,13 @@ CREATE TABLE `aros` (
 
 /*Data for the table `aros` */
 
+insert  into `aros`(`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) values (1,NULL,'Group',1,NULL,1,4);
+insert  into `aros`(`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) values (2,NULL,'Group',2,NULL,5,8);
+insert  into `aros`(`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) values (3,NULL,'Group',3,NULL,9,12);
+insert  into `aros`(`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) values (4,1,'User',1,NULL,2,3);
+insert  into `aros`(`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) values (5,2,'User',2,NULL,6,7);
+insert  into `aros`(`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) values (6,3,'User',3,NULL,10,11);
+
 /*Table structure for table `aros_acos` */
 
 CREATE TABLE `aros_acos` (
@@ -55,6 +61,10 @@ CREATE TABLE `groups` (
 );
 
 /*Data for the table `groups` */
+
+insert  into `groups`(`id`,`name`,`created`,`modified`) values (1,'administrators','2011-01-21 21:45:56','2011-01-21 21:45:56');
+insert  into `groups`(`id`,`name`,`created`,`modified`) values (2,'managers','2011-01-21 21:46:09','2011-01-21 21:46:09');
+insert  into `groups`(`id`,`name`,`created`,`modified`) values (3,'users','2011-01-21 21:46:16','2011-01-21 21:46:16');
 
 /*Table structure for table `posts` */
 
@@ -84,6 +94,10 @@ CREATE TABLE `users` (
 );
 
 /*Data for the table `users` */
+
+insert  into `users`(`id`,`username`,`password`,`group_id`,`created`,`modified`) values (1,'administrator','0938a7dd25a225e613bbbf05d294f1f3863dd30c',1,'2011-01-21 21:46:46','2011-01-21 21:46:46');
+insert  into `users`(`id`,`username`,`password`,`group_id`,`created`,`modified`) values (2,'manager','0938a7dd25a225e613bbbf05d294f1f3863dd30c',2,'2011-01-21 21:47:00','2011-01-21 21:47:00');
+insert  into `users`(`id`,`username`,`password`,`group_id`,`created`,`modified`) values (3,'user','0938a7dd25a225e613bbbf05d294f1f3863dd30c',3,'2011-01-21 21:47:16','2011-01-21 21:47:16');
 
 /*Table structure for table `widgets` */
 

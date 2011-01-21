@@ -1,4 +1,6 @@
 
+/*Table structure for table `acos` */
+
 CREATE TABLE `acos` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `parent_id` int(10) DEFAULT NULL,
@@ -11,6 +13,8 @@ CREATE TABLE `acos` (
 );
 
 /*Data for the table `acos` */
+
+insert  into `acos`(`id`,`parent_id`,`model`,`foreign_key`,`alias`,`lft`,`rght`) values (1,NULL,NULL,NULL,'controllers',1,2);
 
 /*Table structure for table `aros` */
 

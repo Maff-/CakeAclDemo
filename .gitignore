@@ -1,0 +1,9 @@
+# The CakePHP framework will be added as /cakephp so this entry just
+# prevents us from accidentally commiting the default /cake location
+/cake
+
+# prevent temporary files from ending up in our repo
+#/app/tmp
+
+# user should add database.php
+/app/config/database.php

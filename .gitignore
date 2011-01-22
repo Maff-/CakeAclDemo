@@ -3,12 +3,11 @@
 /cake
 
 # prevent temporary files from ending up in our repo
-/app/tmp/cache/models/*
-/app/tmp/cache/persistent/*
-/app/tmp/cache/views/*
-/app/tmp/logs/*
-/app/tmp/sessions/*
-/app/tmp/tests/*
+tmp/*
+app/tmp/*
+!empty
 
 # user should add own database.php
 /app/config/database.php
+config/database.php
+

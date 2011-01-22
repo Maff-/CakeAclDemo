@@ -37,6 +37,21 @@
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link(__('CakePHP: the rapid development php framework', true), 'http://cakephp.org'); ?></h1>
+			<div id="menu" style="background:#fff; padding:10px;">
+				<?php echo $this->Html->link('Home','/'); ?>
+				<?php echo $this->Html->link('Users',array('controller'=>'users')); ?>
+				<?php echo $this->Html->link('Groups',array('controller'=>'groups')); ?>
+				<?php echo $this->Html->link('Posts',array('controller'=>'posts')); ?>
+				<?php echo $this->Html->link('Widgets',array('controller'=>'widgets')); ?>
+				<?php 
+					if ($this->Session->check('Auth.User')) {
+						echo $this->Html->link('Log Out',array('controller'=>'users','action'=>'logout'));
+						echo ' <span style="color:#367889; font-size:80%;">(logged in as <span style="color:#003d4c;font-weight:bold;">'.$this->Session->read('Auth.User.username').'</span>)</span>';
+					} else {
+						echo $this->Html->link('Log In',array('controller'=>'users','action'=>'login'));
+					}
+				?>
+			</div>
 		</div>
 		<div id="content">
 

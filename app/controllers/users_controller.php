@@ -3,6 +3,16 @@ class UsersController extends AppController {
 
 	var $name = 'Users';
 	
+	/* This is not included in the tutorial, but you should allow people
+	 * to access the logout action.
+	 * This could also be achieved setting the permissions in the Acl, but
+	 * I see no harm in doing it this way.
+	 */
+	function beforeFilter() {
+		parent::beforeFilter(); 
+		$this->Auth->allowedActions = array('logout');
+	}
+	
 	function login() {
 		//Auth Magic
 	}

@@ -4,15 +4,15 @@ CakePHP 1.3 "Simple Acl controlled Application"
 This app tries to provide a working example of the [Simple Acl controlled Application tutorial](http://book.cakephp.org/view/1543/Simple-Acl-controlled-Application) that is included in the CakePHP Manual \([The Cookbook](http://book.cakephp.org/)\).
 All steps listed in the tutorial are available as different commits (more or less).
 
-* 11.2.1 [Preparing our Application](http://book.cakephp.org/view/1544/Preparing-our-Application) - #48ae7099a730f25cdb490c7275313579f393f833
-* 11.2.2 [Preparing to Add Auth](http://book.cakephp.org/view/1545/Preparing-to-Add-Auth) - #aa6a563444778e6bb9c95589c3aa795fdea80f49
-* 11.2.3 [Initialize the Db Acl tables](http://book.cakephp.org/view/1546/Initialize-the-Db-Acl-tables) - #6d2ca447fd4636069a41d5373d1af2fe10025fd8
-* 11.2.4 [Acts As a Requester](http://book.cakephp.org/view/1547/Acts-As-a-Requester) - #f1bb54a4a122005f34db32c4c511a41edd2c6513
-* 11.2.5 [Creating ACOs (Access Control Objects)](http://book.cakephp.org/view/1548/Creating-ACOs-Access-Control-Objects) - #a66f2829a52d80f929df61ddad81523472a151d7
-* 11.2.6 [An Automated tool for creating ACOs](http://book.cakephp.org/view/1549/An-Automated-tool-for-creating-ACOs) - #da5f9a2bc3e5464ec0e4be891fe39cec1235d46c
-* 11.2.7 [Setting up permissions](http://book.cakephp.org/view/1550/Setting-up-permissions) - #d02b61277256eeaef15f2665a87ac10f2115d5a4
-* 11.2.8 [Logging in](http://book.cakephp.org/view/1551/Logging-in) - #393cb844726ae1abfc8064f195746e478abae962
-* 11.2.9 [Logout](http://book.cakephp.org/view/1552/Logout) - #aa952e20f1f137062aed1c548253394cd9f7bc4e
+* 11.2.1 [Preparing our Application](http://book.cakephp.org/view/1544/Preparing-our-Application) - 48ae7099a730f25cdb490c7275313579f393f833
+* 11.2.2 [Preparing to Add Auth](http://book.cakephp.org/view/1545/Preparing-to-Add-Auth) - aa6a563444778e6bb9c95589c3aa795fdea80f49
+* 11.2.3 [Initialize the Db Acl tables](http://book.cakephp.org/view/1546/Initialize-the-Db-Acl-tables) - 6d2ca447fd4636069a41d5373d1af2fe10025fd8
+* 11.2.4 [Acts As a Requester](http://book.cakephp.org/view/1547/Acts-As-a-Requester) - f1bb54a4a122005f34db32c4c511a41edd2c6513
+* 11.2.5 [Creating ACOs (Access Control Objects)](http://book.cakephp.org/view/1548/Creating-ACOs-Access-Control-Objects) - a66f2829a52d80f929df61ddad81523472a151d7
+* 11.2.6 [An Automated tool for creating ACOs](http://book.cakephp.org/view/1549/An-Automated-tool-for-creating-ACOs) - da5f9a2bc3e5464ec0e4be891fe39cec1235d46c
+* 11.2.7 [Setting up permissions](http://book.cakephp.org/view/1550/Setting-up-permissions) - d02b61277256eeaef15f2665a87ac10f2115d5a4
+* 11.2.8 [Logging in](http://book.cakephp.org/view/1551/Logging-in) - 393cb844726ae1abfc8064f195746e478abae962
+* 11.2.9 [Logout](http://book.cakephp.org/view/1552/Logout) - aa952e20f1f137062aed1c548253394cd9f7bc4e
 
 Getting started
 -----------------------------------------------
